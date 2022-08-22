@@ -1,5 +1,30 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
+.homepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  background: #f5f5f5;
+}
+
+.homepage h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-right: 3rem;
+  text-align: center;
+}
+
+.profile-image{
+
+  height: auto;
+  object-fit: cover;
+  background-color: rgb(235, 228, 228);
+  -webkit-clip-path: polygon(0 0, 75% 0, 46% 100%, 0 100%);
+  clip-path: polygon(0 0, 75% 0, 46% 100%, 0 100%);
+  z-index: 1;  
+}
