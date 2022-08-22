@@ -4,6 +4,24 @@ body {
   font-family: sans-serif;
 }
 
+.navbar{
+  height: 5rem;
+  background-color: #333;
+}
+
+.nav-links {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.0rem;
+}
+
 .homepage {
   display: flex;
   flex-direction: row;
