@@ -15,7 +15,12 @@ export default function TenementDetails() {
     return (
         <div>
             <h2>PROPERTY DETAILS</h2>
-            {tenement && <p>{tenement.address}</p>}
+            {tenement && (
+                <>
+                <h4>{tenement.name}</h4>
+                <p>Location: {tenement.address}</p>
+                </>
+            )}
         </div>
     )
 }
