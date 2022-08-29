@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Homepage from './components/HomePage';
 import TenementsContainer from './components/TenementsContainer';
 import TenementDetails from './components/TenementDetails';
+import ApartmentsContainer from './components/ApartmentsContainer';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/tenements" element={<TenementsContainer />} exact/>
           <Route path="/tenements/:id" element={<TenementDetails />} exact/>
-
+          <Route path="/apartments" element={<ApartmentsContainer />} exact/>
         </Routes>
 
         <div className='footer'>
