@@ -7,6 +7,7 @@ import TenementsContainer from './components/TenementsContainer';
 import TenementDetails from './components/TenementDetails';
 import ApartmentsContainer from './components/ApartmentsContainer';
 import ApartmentDetails from './components/ApartmentDetails'
+import Layouts from './components/Layouts'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/tenements/:id" element={<TenementDetails />} exact/>
           <Route path="/apartments" element={<ApartmentsContainer />} exact/>
           <Route path="/apartments/:id" element={<ApartmentDetails />} exact/>
+          <Route path="/layouts" element={<Layouts />} exact/>
         </Routes>
 
         <div className='footer'>
