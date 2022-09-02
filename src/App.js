@@ -6,8 +6,9 @@ import Homepage from './components/HomePage';
 import TenementsContainer from './components/TenementsContainer';
 import TenementDetails from './components/TenementDetails';
 import ApartmentsContainer from './components/ApartmentsContainer';
-import ApartmentDetails from './components/ApartmentDetails'
-import Layouts from './components/Layouts'
+import ApartmentDetails from './components/ApartmentDetails';
+import Layouts from './components/Layouts';
+import OccupantsContainer from './components/OccupantsContainer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/apartments" element={<ApartmentsContainer />} exact/>
           <Route path="/apartments/:id" element={<ApartmentDetails />} exact/>
           <Route path="/layouts" element={<Layouts />} exact/>
+          <Route path="/occupants" element={<OccupantsContainer />} exact />
         </Routes>
 
         <div className='footer'>
